@@ -16,4 +16,10 @@ def reverse_each_word(sentence):
 
 def main():
     test_str = "String; 2be reversed..."
-    assert reverse_each_word(test_str), 'gnirtS; eb2 desrever...'
+    getresult = reverse_each_word(test_str)
+    assert getresult, 'gnirtS; eb2 desrever...'
+    return 0
+
+
+if __name__ == '__main__':
+    main()
